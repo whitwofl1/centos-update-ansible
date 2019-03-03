@@ -1,0 +1,10 @@
+---
+- name: update-centos
+  hosts: all
+  
+
+
+  tasks:
+
+  - name: Update-systems
+    shell: yum update -y 
