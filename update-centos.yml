@@ -7,4 +7,6 @@
   tasks:
 
   - name: Update-systems
-    shell: yum update -y 
+    yum:
+      name: '*'
+      state: latest
