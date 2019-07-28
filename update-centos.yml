@@ -10,3 +10,4 @@
     yum:
       name: '*'
       state: latest
+      exlude: kernel*
